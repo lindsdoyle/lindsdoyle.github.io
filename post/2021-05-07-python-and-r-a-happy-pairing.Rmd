@@ -1,5 +1,5 @@
 ---
-title: 'Python and R: A Happy Pairing'
+title: 'Knowledge Sharing Between R and Python'
 author: ''
 date: '2021-05-07'
 slug: python-and-r-a-happy-pairing
@@ -7,6 +7,23 @@ categories: []
 tags: []
 description: ''
 ---
+*My favorite part of learning and school has always been applying knowledge learned in one class to understand a subject in another. That is why I chose my major. Biology allows me to learn chemistry, biology, and physics topics that all intertwined with each other. I can apply the synthesis problems that I learned in Organic Chemistry in my Biochemistry class to understand biological processes like cell metabolism. The coding languages of R and Python work in a similar way. This allows for the best things in R to work in Python and vice versa. It allows one coding language to fill in the weaknesses of the other to create a project that is functioning at its fullest potential. Just like taking knowledge from one class and applying it to a topic in another to allow deeper comprehension. For example:*
+```{r}
+#R code chunk
+library(reticulate)
+
+one<-"I love learning."
+```
+*The above code is written in R. However, I can use the same function from R in Python like this:*
+```{python}
+#Python code chunk
+two="It helps me understand the world better."
+print(r.one,two) #access R-defined objects with r. 
+```
+*This transfer of information can help researchers, statisticians, and computer programmers a like to complete a specific task. This simple innovation is a prime example of being able to learn from each other and work together to create something FANTASTIC.*
+![](/post/2021-05-07-python-and-r-a-happy-pairing_files/transfer.png) 
+*Image Citation:“Technology Can Help Knowledge Transfer for Utilities | Sopris Systems.” Sopris Systems, 10 Oct. 2018, www.soprissystems.com/technology-can-help-knowledge-transfer-for-utilities/. Accessed 9 May 2021.*
+
 [Link to project 1](/project/project1/)
 
 [Link to google](https://www.google.com)

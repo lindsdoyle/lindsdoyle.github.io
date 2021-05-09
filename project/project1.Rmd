@@ -1,7 +1,7 @@
 ---
 title: 'Project 1: Exploratory Data Analysis'
 author: "Lindsey Doyle LND642"
-date: '04/04/2021'
+date: '2021-04-04'
 output:
   html_document:
     toc: yes
